@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name='HandheldFriendly' content='True' />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/videos_handler.js"></script>
+    <script type="text/javascript" src="../js/blender.js"></script>
+    <script type="text/javascript" src="../js/Sprite3D.js"></script>
+    <title>Video</title>
+  </head>
+  <body style="background-color: #000000;">
+    <div id="container" style="position: relative;">
+      <!-- bg -->
+      <canvas id="layer1" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+      <!-- fg -->
+      <canvas id="layer2" style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+      <!-- play -->
+      <img id="overplay" src="../img/overplay.png" style="position: absolute; left: 0; top: 0; z-index: 1; z-index: 3;"></img  >
+      <!-- camera roll-->
+      <div id="cameraroll" style="position: absolute; z-index: 3;"></div>    
+    </div>
+  </body>
+</html>
